@@ -22,6 +22,6 @@ public class Main {
         TransportFactory TransportFactory = createdTransportFactory(way);
         Shipping transport = TransportFactory.transport();
         transport.drive();
-        createdTransportFactory(way).transport().drive();
+        //createdTransportFactory(way).transport().drive();
     }
 }
